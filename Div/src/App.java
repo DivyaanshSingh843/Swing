@@ -1,5 +1,6 @@
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JTextField;
 
 public class App extends JFrame {
     
@@ -12,6 +13,7 @@ public class App extends JFrame {
     }
 
     JLabel name, phonenumber;
+    JTextField namField;
     public void components() {
         name = new JLabel();
         name.setText("user name :");
@@ -21,6 +23,9 @@ public class App extends JFrame {
         phonenumber.setText("Phone Number:");
         phonenumber.setBounds(50, 100, 100, 30);
         add(phonenumber);
+        namField = new JTextField();
+        namField.setBounds(150, 50, 200, 30);   
+        add(namField);
         
     }
     public static void main(String[] args) {
