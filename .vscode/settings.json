@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "c:\\Users\\divya\\Downloads\\mssql-jdbc-12.10.2.jre11.jar"
+    ],
+    "java.project.sourcePaths": [
+        ".",
+        "Div\\src"
+    ]
+}
+
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}

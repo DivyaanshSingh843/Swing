@@ -1,0 +1,13 @@
+use demo;
+
+CREATE TABLE Employee (
+id INT IDENTITY(1,1) PRIMARY KEY,
+name NVARCHAR(100) NOT NULL,
+age INT NULL,
+address NVARCHAR(255) NULL,
+phone NVARCHAR(50) NULL,
+dob DATE NULL,
+email NVARCHAR(255) NULL,
+gender NVARCHAR(50) NULL,
+massage NVARCHAR(MAX) NULL
+);
